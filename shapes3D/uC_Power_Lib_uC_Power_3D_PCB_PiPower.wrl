@@ -1,0 +1,37 @@
+#VRML V2.0 utf8
+#Exported from Wings 3D 1.4.1
+DEF cube2 Transform {
+  children [
+    Shape {
+      appearance Appearance {
+        material DEF PCB Material {
+          diffuseColor 0.0 0.0 1.0
+          emissiveColor 0.0 0.0 0.0
+          specularColor 1.0 1.0 1.0
+          ambientIntensity 1.0
+          transparency 0.5
+          shininess 1.0
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate { point [
+          -3.0 -3.0 -0.07499999999999982,
+          -3.0 -3.0 0.07500000000000018,
+          3.0 -3.0 0.07500000000000018,
+          3.0 -3.0 -0.07499999999999982,
+          -3.0 3.0 -0.07500000000000018,
+          -3.0 3.0 0.07499999999999982,
+          3.0 3.0 0.07499999999999982,
+          3.0 3.0 -0.07500000000000018 ] }
+        coordIndex [
+          0, 1, 5, 4, -1,
+          0, 3, 2, 1, -1,
+          0, 4, 7, 3, -1,
+          1, 2, 6, 5, -1,
+          2, 3, 7, 6, -1,
+          4, 5, 6, 7, -1 ]
+      }
+    }
+  ]
+}
+
