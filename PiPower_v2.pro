@@ -1,6 +1,6 @@
-update=30-Sep-13 1:32:57 PM
+update=Monday 21 October 2013 01:50:13 PM IST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -15,29 +15,29 @@ RptD_Y=100
 RptLab=1
 LabSize=40
 [eeschema/libraries]
-LibName1=uC_Power_Lib/uC_Power_sch
+LibName1=PiPower_Lib/PiPower_sch
 LibName2=power
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=uC_Power.net
 UseCmpFile=1
-PadDrill=3.048000000000
-PadDrillOvalY=3.048000000000
-PadSizeH=7.620000000000
-PadSizeV=7.620000000000
-PcbTextSizeV=0.800000000000
-PcbTextSizeH=0.800000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=0.800000000000
-ModuleTextSizeH=0.800000000000
-ModuleTextSizeThickness=0.100000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.150000000000
-ModuleOutlineThickness=0.150000000000
+PadDrill="    1.016000"
+PadDrillOvalY="    1.016000"
+PadSizeH="    1.524000"
+PadSizeV="    1.524000"
+PcbTextSizeV="    0.800000"
+PcbTextSizeH="    0.800000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    0.800000"
+ModuleTextSizeH="    0.800000"
+ModuleTextSizeThickness="    0.100000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.150000"
+ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibDir=
-LibName1=uC_Power_Lib/pipower
+LibName1=PiPower_Lib/PiPower
+[general]
+version=1

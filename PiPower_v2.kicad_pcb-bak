@@ -227,7 +227,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 /5V_EXT)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -268,7 +268,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/c_elec_5x5_3.wrl
+    (model PiPower_Lib/PiPower_3D/c_elec_5x5_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -309,7 +309,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/c_elec_5x5_3.wrl
+    (model PiPower_Lib/PiPower_3D/c_elec_5x5_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -339,7 +339,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 21 /VBAT)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -369,7 +369,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 20 /VAUX)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -432,7 +432,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 33 N-000004)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -465,7 +465,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -498,7 +498,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -531,7 +531,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 19 /UVLO2V6)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -564,7 +564,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 35 N-000006)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -597,7 +597,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 9 /EN)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -630,7 +630,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 10 /FB)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -663,7 +663,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 38 N-000009)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -696,7 +696,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -729,7 +729,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 26 N-0000012)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -762,7 +762,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -795,7 +795,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -828,7 +828,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 24 N-0000010)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -922,7 +922,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 30 N-0000018)
     )
-    (model uC_Power_Lib/uC_Power_3D/SW_0773.wrl
+    (model PiPower_Lib/PiPower_3D/SW_0773.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -978,7 +978,7 @@
       (solder_mask_margin 0.127)
       (clearance 0.127)
     )
-    (model uC_Power_Lib/uC_Power_3D/SOT23_5.wrl
+    (model PiPower_Lib/PiPower_3D/SOT23_5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.1 0.1 0.1))
       (rotate (xyz 0 0 0))
@@ -1008,7 +1008,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 /5V_EXT)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1038,7 +1038,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 6 /5V_USB)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1079,7 +1079,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/c_elec_5x5_3.wrl
+    (model PiPower_Lib/PiPower_3D/c_elec_5x5_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1109,7 +1109,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1139,7 +1139,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 4 /5V_IN)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1169,7 +1169,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 31 N-0000023)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1210,7 +1210,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 28 N-0000015)
     )
-    (model uC_Power_Lib/uC_Power_3D/c_elec_5x5_3.wrl
+    (model PiPower_Lib/PiPower_3D/c_elec_5x5_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1240,7 +1240,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 24 N-0000010)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1270,7 +1270,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 36 N-000007)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1300,7 +1300,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 31 N-0000023)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1352,7 +1352,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 15 /PWR_IN)
     )
-    (model uC_Power_Lib/uC_Power_3D/do214aa.wrl
+    (model PiPower_Lib/PiPower_3D/do214aa.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1400,7 +1400,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 6 /5V_USB)
     )
-    (model uC_Power_Lib/uC_Power_3D/do214aa.wrl
+    (model PiPower_Lib/PiPower_3D/do214aa.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1436,7 +1436,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 32 N-000003)
     )
-    (model uC_Power_Lib/uC_Power_3D/cree_clm3c.wrl
+    (model PiPower_Lib/PiPower_3D/cree_clm3c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.75 0.75 0.75))
       (rotate (xyz 0 0 0))
@@ -1472,7 +1472,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 18 /STAT)
     )
-    (model uC_Power_Lib/uC_Power_3D/cree_clm3c.wrl
+    (model PiPower_Lib/PiPower_3D/cree_clm3c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.75 0.75 0.75))
       (rotate (xyz 0 0 0))
@@ -1524,7 +1524,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 2 /5V_BAT)
     )
-    (model uC_Power_Lib/uC_Power_3D/do214aa.wrl
+    (model PiPower_Lib/PiPower_3D/do214aa.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1560,7 +1560,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/cree_clm3c.wrl
+    (model PiPower_Lib/PiPower_3D/cree_clm3c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.75 0.75 0.75))
       (rotate (xyz 0 0 0))
@@ -1596,7 +1596,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 26 N-0000012)
     )
-    (model uC_Power_Lib/uC_Power_3D/cree_clm3c.wrl
+    (model PiPower_Lib/PiPower_3D/cree_clm3c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.75 0.75 0.75))
       (rotate (xyz 0 0 0))
@@ -1648,7 +1648,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 29 N-0000017)
     )
-    (model uC_Power_Lib/uC_Power_3D/do214aa.wrl
+    (model PiPower_Lib/PiPower_3D/do214aa.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1680,7 +1680,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 34 N-000005)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.8 0.8 0.8))
       (rotate (xyz 0 0 0))
@@ -1727,7 +1727,7 @@
     (pad "" smd rect (at 3.34772 -1.69926 270) (size 1.4986 3.39598)
       (layers F.Cu F.Paste F.Mask)
     )
-    (model uC_Power_Lib/uC_Power_3D/s2b-ph-sm4-tb.wrl
+    (model PiPower_Lib/PiPower_3D/s2b-ph-sm4-tb.wrl
       (at (xyz 0 0.3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1778,7 +1778,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 4 /5V_IN)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_3.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1819,7 +1819,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1860,7 +1860,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1901,7 +1901,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1942,7 +1942,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1983,7 +1983,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2021,7 +2021,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/POWER_21.wrl
+    (model PiPower_Lib/PiPower_3D/POWER_21.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.8 0.8 0.8))
       (rotate (xyz 0 0 0))
@@ -2084,7 +2084,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 31 N-0000023)
     )
-    (model uC_Power_Lib/uC_Power_3D/cms_so8.wrl
+    (model PiPower_Lib/PiPower_3D/cms_so8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.5 0.35 0.5))
       (rotate (xyz 0 0 0))
@@ -2117,7 +2117,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 36 N-000007)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2150,7 +2150,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 17 /SDA_Pi)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2183,7 +2183,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 16 /SCL_Pi)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2216,7 +2216,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 30 N-0000018)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2249,7 +2249,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 31 N-0000023)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2282,7 +2282,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 29 N-0000017)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2315,7 +2315,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 11 /GPIO4)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2348,7 +2348,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 28 N-0000015)
     )
-    (model uC_Power_Lib/uC_Power_3D/R0805.wrl
+    (model PiPower_Lib/PiPower_3D/R0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -2510,7 +2510,7 @@
       (net 22 GND)
       (clearance 0.2032)
     )
-    (model uC_Power_Lib/uC_Power_3D/usb_B_micro_smd.wrl
+    (model PiPower_Lib/PiPower_3D/usb_B_micro_smd.wrl
       (at (xyz -0.1 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2677,7 +2677,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/usb_a_through_hole.wrl
+    (model PiPower_Lib/PiPower_3D/usb_a_through_hole.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2871,7 +2871,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 3.048)
       (layers *.Cu *.SilkS *.Mask)
     )
-    (model uC_Power_Lib/uC_Power_3D/vite_2mm5.wrl
+    (model PiPower_Lib/PiPower_3D/vite_2mm5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
@@ -2892,7 +2892,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 3.048)
       (layers *.Cu *.SilkS *.Mask)
     )
-    (model uC_Power_Lib/uC_Power_3D/vite_2mm5.wrl
+    (model PiPower_Lib/PiPower_3D/vite_2mm5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.2 1.2 1.2))
       (rotate (xyz 0 0 0))
@@ -2932,7 +2932,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/SOT23_3.wrl
+    (model PiPower_Lib/PiPower_3D/SOT23_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 180))
@@ -2973,7 +2973,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3023,7 +3023,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/pin_strip_2x2.wrl
+    (model PiPower_Lib/PiPower_3D/pin_strip_2x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3078,7 +3078,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/SOT223.wrl
+    (model PiPower_Lib/PiPower_3D/SOT223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.394 0.394 0.394))
       (rotate (xyz 0 0 0))
@@ -3096,7 +3096,7 @@
     )
     (fp_line (start 0 -0.508) (end 0 0.508) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.508 0) (end 0.508 0) (layer F.SilkS) (width 0.15))
-    (model uC_Power_Lib/uC_Power_3D/PCB_PiPower.wrl
+    (model PiPower_Lib/PiPower_3D/PCB_PiPower.wrl
       (at (xyz 0 0 -0.03))
       (scale (xyz 3.7 3.94 3.94))
       (rotate (xyz 0 0 0))
@@ -3126,7 +3126,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -3156,7 +3156,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -3186,7 +3186,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 22 GND)
     )
-    (model uC_Power_Lib/uC_Power_3D/C0805.wrl
+    (model PiPower_Lib/PiPower_3D/C0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -3296,17 +3296,17 @@
     (pad "" thru_hole circle (at 7.975 33.975 270) (size 6.096 6.096) (drill 2.54)
       (layers *.Cu *.Mask F.SilkS)
     )
-    (model "uControl_Libs/3D Modules/conF_13_long.wrl"
+    (model "PiPower_Lib/PiPower_3D/conF_13_long.wrl"
       (at (xyz 0 0.05 -0.025))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "uControl_Libs/3D Modules/conF_13_long.wrl"
+    (model "PiPower_Lib/PiPower_3D/conF_13_long.wrl"
       (at (xyz 0 -0.05 -0.025))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
-    (model "uControl_Libs/3D Modules/Ras_pi.wrl"
+    (model "PiPower_Lib/PiPower_3D/Ras_pi.wrl"
       (at (xyz 1.05 -0.85 -0.7))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

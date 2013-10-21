@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
-LIBS:uC_Power_sch
+LIBS:PiPower_sch
 LIBS:power
-LIBS:uC_Power-cache
+LIBS:PiPower_v2-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
