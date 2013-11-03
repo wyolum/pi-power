@@ -1,11 +1,6 @@
-update=Monday 21 October 2013 01:50:13 PM IST
+update=Sunday 03 November 2013 01:45:25 PM IST
 version=1
-last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -17,6 +12,13 @@ LabSize=40
 [eeschema/libraries]
 LibName1=PiPower_Lib/PiPower_sch
 LibName2=power
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=uC_Power.net
@@ -39,5 +41,3 @@ ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibDir=
 LibName1=PiPower_Lib/PiPower
-[general]
-version=1

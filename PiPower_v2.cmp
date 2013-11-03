@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-15 BZR 4003)-stable date = 30-Sep-13 2:48:29 PM
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sunday 03 November 2013 04:15:49 PM IST
 
 BeginCmp
 TimeStamp = /51E43023;
@@ -10,15 +10,15 @@ EndCmp
 BeginCmp
 TimeStamp = /51E43043;
 Reference = C2;
-ValeurCmp = 100u,25V;
-IdModule  = C_ELCO_SMD;
+ValeurCmp = 10uF X7R;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51E4306C;
 Reference = C3;
-ValeurCmp = 2u2 Tant;
-IdModule  = c_0805;
+ValeurCmp = 22uF X7R;
+IdModule  = c_1210;
 EndCmp
 
 BeginCmp
@@ -31,15 +31,15 @@ EndCmp
 BeginCmp
 TimeStamp = /51D13843;
 Reference = C5;
-ValeurCmp = 10u;
-IdModule  = C_ELCO_SMD;
+ValeurCmp = 10uF X7R;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51D1384F;
 Reference = C6;
-ValeurCmp = 10u;
-IdModule  = C_ELCO_SMD;
+ValeurCmp = 10uF X7R;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /51D1410C;
 Reference = C9;
 ValeurCmp = 10uF X7R;
-IdModule  = c_0805;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51D153EE;
 Reference = C10;
 ValeurCmp = 10uF X7R;
-IdModule  = c_0805;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -94,8 +94,8 @@ EndCmp
 BeginCmp
 TimeStamp = /51D06C0F;
 Reference = C14;
-ValeurCmp = 10uF;
-IdModule  = C_ELCO_SMD;
+ValeurCmp = 10uF X7R;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -123,14 +123,7 @@ BeginCmp
 TimeStamp = /523ECE27;
 Reference = C18;
 ValeurCmp = 10uF X7R;
-IdModule  = c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51E427BE;
-Reference = D1;
-ValeurCmp = LSM115J;
-IdModule  = diode-DO214BA;
+IdModule  = c_1206;
 EndCmp
 
 BeginCmp
@@ -155,13 +148,6 @@ IdModule  = led_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D16BE1;
-Reference = D5;
-ValeurCmp = LSM115J;
-IdModule  = diode-DO214BA;
-EndCmp
-
-BeginCmp
 TimeStamp = /51EA1847;
 Reference = D6;
 ValeurCmp = BAT;
@@ -171,7 +157,14 @@ EndCmp
 BeginCmp
 TimeStamp = /51EAD8CE;
 Reference = D7;
-ValeurCmp = EXT_ON;
+ValeurCmp = 5V_OUT;
+IdModule  = led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /524D93BE;
+Reference = D8;
+ValeurCmp = 5V_Pi;
 IdModule  = led_0805;
 EndCmp
 
@@ -248,7 +241,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51EBDEEA;
 Reference = J7;
-ValeurCmp = 5V_IN;
+ValeurCmp = 5V_OUT;
 IdModule  = Header_2;
 EndCmp
 
@@ -281,10 +274,24 @@ IdModule  = Header2x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /527532B9;
+Reference = J12;
+ValeurCmp = 5V_IN;
+IdModule  = Header_3;
+EndCmp
+
+BeginCmp
 TimeStamp = /51D15A6C;
 Reference = L1;
 ValeurCmp = 4u7H,1.2A;
 IdModule  = Inductor_SMD1;
+EndCmp
+
+BeginCmp
+TimeStamp = /526D14F0;
+Reference = L2;
+ValeurCmp = 2u2H,1.9A;
+IdModule  = Inductor_SMD2;
 EndCmp
 
 BeginCmp
@@ -309,13 +316,6 @@ IdModule  = PCB;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D1A300;
-Reference = Q1;
-ValeurCmp = 2SK3019;
-IdModule  = SOT416_2SK3019;
-EndCmp
-
-BeginCmp
 TimeStamp = /51D12B34;
 Reference = Q2;
 ValeurCmp = IRF7319;
@@ -325,21 +325,21 @@ EndCmp
 BeginCmp
 TimeStamp = /51D13838;
 Reference = R1;
-ValeurCmp = 1k5;
+ValeurCmp = 4k7;
 IdModule  = r_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51EA02CE;
 Reference = R2;
-ValeurCmp = 1k5;
+ValeurCmp = 4k7;
 IdModule  = r_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51D13849;
 Reference = R3;
-ValeurCmp = 2k;
+ValeurCmp = 4k7;
 IdModule  = r_0805;
 EndCmp
 
@@ -351,16 +351,16 @@ IdModule  = r_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D1A7B8;
+TimeStamp = /526D1586;
 Reference = R5;
 ValeurCmp = 100k;
 IdModule  = r_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D156AF;
-Reference = R7;
-ValeurCmp = 10k;
+TimeStamp = /524D93B8;
+Reference = R6;
+ValeurCmp = 4k7;
 IdModule  = r_0805;
 EndCmp
 
@@ -374,7 +374,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51EA1837;
 Reference = R9;
-ValeurCmp = 1k5;
+ValeurCmp = 4k7;
 IdModule  = r_0805;
 EndCmp
 
@@ -470,9 +470,23 @@ IdModule  = r_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /524D9EB2;
+Reference = R23;
+ValeurCmp = 470k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /51D1A9FF;
 Reference = SJ1;
-ValeurCmp = LINK1;
+ValeurCmp = BAT;
+IdModule  = ShortLink;
+EndCmp
+
+BeginCmp
+TimeStamp = /524DA2F2;
+Reference = SJ2;
+ValeurCmp = 5V_OUT;
 IdModule  = ShortLink;
 EndCmp
 
@@ -488,6 +502,13 @@ TimeStamp = /51EBC627;
 Reference = SJ4;
 ValeurCmp = D1;
 IdModule  = ShortLink;
+EndCmp
+
+BeginCmp
+TimeStamp = /52751FE7;
+Reference = SJ5;
+ValeurCmp = STAT;
+IdModule  = ShortLink2;
 EndCmp
 
 BeginCmp
@@ -512,10 +533,10 @@ IdModule  = MCP73831;
 EndCmp
 
 BeginCmp
-TimeStamp = /52161420;
+TimeStamp = /526D1432;
 Reference = U2;
-ValeurCmp = NCP1117ST50;
-IdModule  = SOT223;
+ValeurCmp = TPS62163;
+IdModule  = TPS62163_DSG;
 EndCmp
 
 BeginCmp

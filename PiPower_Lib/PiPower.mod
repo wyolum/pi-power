@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  01-Oct-13 6:10:44 PM
+PCBNEW-LibModule-V1  Sunday 03 November 2013 04:02:55 PM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -19,6 +19,7 @@ Header_GPIO_3
 Header_ICSP
 Header_ICSP_10
 Inductor_SMD1
+Inductor_SMD2
 JACK_ALIM
 MAX17040_TDFN
 MCP73831
@@ -38,13 +39,17 @@ SOT416_2SK3019
 SW_PB_V_H
 SW_SMD
 ShortLink
+ShortLink2
 TPS2115_SON
 TPS61200_QFN10
+TPS62163_DSG
 TQFP32
 USB_A
 USB_B_Micro
 c_0603
 c_0805
+c_1206
+c_1210
 d_0805
 diode-DO214AA
 diode-DO214BA
@@ -1723,6 +1728,40 @@ Ne 0 ""
 Po 1.5 0
 $EndPAD
 $EndMODULE Inductor_SMD1
+$MODULE Inductor_SMD2
+Po 0 0 0 15 5276263E 00000000 ~~
+Li Inductor_SMD2
+Sc 0
+AR /51D15A6C
+Op 0 0 0
+At SMD
+T0 -0.012 -2.712 0.8 0.8 0 0.1 N V 21 N "L1"
+T1 -0.012 1.4155 0.8 0.8 0 0.1 N I 21 N "4u7H,1.2A"
+DS 0.6 1.9 1.6 0.9 0.15 21
+DS -0.6 1.9 -1.6 0.9 0.15 21
+DS -0.6 1.9 0.6 1.9 0.15 21
+DS -1.6 -0.9 -0.6 -1.9 0.15 21
+DS 1.6 -0.9 0.6 -1.9 0.15 21
+DS -1.6 0.9 -1.6 0.75 0.15 21
+DS 1.6 0.9 1.6 0.75 0.15 21
+DS 1.6 -0.9 1.6 -0.75 0.15 21
+DS -1.6 -0.9 -1.6 -0.75 0.15 21
+DS -0.6 -1.9 0.6 -1.9 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/VBAT"
+Po -1.35 0
+$EndPAD
+$PAD
+Sh "2" R 1.3 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/L"
+Po 1.35 0
+$EndPAD
+$EndMODULE Inductor_SMD2
 $MODULE JACK_ALIM
 Po 0 0 0 15 4FE03DA8 00000000 ~~
 Li JACK_ALIM
@@ -3331,6 +3370,47 @@ Po 0.8255 0
 .LocalClearance 0.127
 $EndPAD
 $EndMODULE ShortLink
+$MODULE ShortLink2
+Po 0 0 0 15 522FDC01 00000000 ~~
+Li ShortLink2
+Cd Connecteurs 2 pins
+Kw CONN DEV
+Sc 0
+AR /50E3CCEE
+Op 0 0 0
+T0 3.048 -0.9144 0.762 0.762 0 0.127 N V 21 N "P1"
+T1 -3.7338 -0.8128 0.762 0.762 0 0.127 N V 21 N "AREF"
+DS -1.905 0.889 1.905 0.889 0.15 21
+DS -1.905 -0.889 1.905 -0.889 0.15 21
+DA 1.905 0 1.905 -0.889 900 0.1524 21
+DA 1.905 0 2.794 0 900 0.1524 21
+DA -1.905 0 -1.905 0.889 900 0.1524 21
+DA -1.905 0 -2.794 0 900 0.1524 21
+$PAD
+Sh "1" T 1.524 0.762 -0.508 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 1 "+3.3V"
+Po -1.7145 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" T 1.524 0.762 0.508 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 3 "/Interface/5V0"
+Po 1.7145 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/AREF"
+Po 0 0
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE ShortLink2
 $MODULE TPS2115_SON
 Po 0 0 0 15 51F7FC03 00000000 ~~
 Li TPS2115_SON
@@ -3642,6 +3722,109 @@ Po 1.54 0.25
 .LocalClearance 0.001
 $EndPAD
 $EndMODULE TPS61200_QFN10
+$MODULE TPS62163_DSG
+Po 0 0 0 15 52761C9D 00000000 ~~
+Li TPS62163_DSG
+Sc 0
+AR /51EAC6A8
+Op 0 0 0
+T0 -0.75 1.675 0.4 0.4 0 0.06 N V 21 N "U3"
+T1 -0.05 0 0.4 0.4 0 0.06 N I 21 N "TPS62163_DSG"
+DS -1.2 0.95 -1.45 0.825 0.15 21
+DS -1.45 0.825 -1.45 1.075 0.15 21
+DS -1.45 1.075 -1.2 0.95 0.15 21
+DS -1.05 -1.05 -1.05 1.05 0.15 21
+DS 1.05 -1.05 1.05 1.05 0.15 21
+$PAD
+Sh "5" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "GND"
+Po 0.75 -0.95
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "6" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/5V_BAT"
+Po 0.25 -0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "7" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/5V_OUT"
+Po -0.25 -0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "8" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/5V_IN"
+Po -0.75 -0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "1" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "N-0000034"
+Po -0.75 0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "2" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/D0"
+Po -0.25 0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "3" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/D1"
+Po 0.25 0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "4" R 0.3 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/Ilim"
+Po 0.75 0.95
+.SolderMask 0.07
+.LocalClearance 0.07
+$EndPAD
+$PAD
+Sh "5" R 0.8 0.9 0 0 0
+Dr 0.299999 0 0
+At STD N 00E0FFFF
+Ne 7 "GND"
+Po 0.4 0
+.SolderMask 0.001
+.LocalClearance 0.001
+$EndPAD
+$PAD
+Sh "6" R 0.8 0.9 0 0 0
+Dr 0.299999 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.4 0
+.SolderMask 0.001
+.LocalClearance 0.001
+$EndPAD
+$EndMODULE TPS62163_DSG
 $MODULE TQFP32
 Po 0 0 0 15 4EC6281C 00000000 ~~
 Li TQFP32
@@ -4182,6 +4365,74 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE c_0805
+$MODULE c_1206
+Po 0 0 0 15 52760937 00000000 ~~
+Li c_1206
+Cd SMT capacitor, 1206
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.45 0.50038 0.50038 0 0.11938 N V 21 N "c_1206"
+T1 0 1.5 0.50038 0.50038 0 0.11938 N I 21 N "C***"
+DS -2.325 -1.025 -2.325 1.025 0.15 21
+DS -2.325 1.025 2.325 1.025 0.15 21
+DS 2.325 1.025 2.325 -1.025 0.15 21
+DS 2.325 -1.025 -2.325 -1.025 0.15 21
+$PAD
+Sh "1" R 1.6002 1.8034 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.397 0
+$EndPAD
+$PAD
+Sh "2" R 1.6002 1.8034 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.397 0
+$EndPAD
+$SHAPE3D
+Na "smd/capacitors/c_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE c_1206
+$MODULE c_1210
+Po 0 0 0 15 5276091F 00000000 ~~
+Li c_1210
+Cd SMT capacitor, 1210
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.9 0.50038 0.50038 0 0.11938 N V 21 N "c_1210"
+T1 0 2.025 0.50038 0.50038 0 0.11938 N I 21 N "C***"
+DS -2.325 -1.475 -2.325 1.475 0.15 21
+DS -2.325 1.475 2.325 1.475 0.15 21
+DS 2.325 1.475 2.325 -1.475 0.15 21
+DS 2.325 -1.475 -2.325 -1.475 0.15 21
+$PAD
+Sh "1" R 1.6002 2.6924 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.397 0
+$EndPAD
+$PAD
+Sh "2" R 1.6002 2.6924 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.397 0
+$EndPAD
+$SHAPE3D
+Na "smd/capacitors/c_1210.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE c_1210
 $MODULE d_0805
 Po 0 0 0 15 4FDB6ECB 00000000 ~~
 Li d_0805
