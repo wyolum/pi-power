@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sunday 03 November 2013 04:02:55 PM IST
+PCBNEW-LibModule-V1  Sunday 03 November 2013 11:36:51 PM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -331,7 +331,7 @@ Po 2.3 4.1
 $EndPAD
 $EndMODULE DPAK_3
 $MODULE Header2x2
-Po 0 0 0 15 524AC2C7 00000000 ~~
+Po 0 0 0 15 527690A9 00000000 ~~
 Li Header2x2
 Cd Connecteur 2 pins
 Kw CONN DEV
@@ -341,21 +341,14 @@ Op 0 0 0
 At SMD
 T0 -4.325 0 0.8 0.8 900 0.1 N V 21 N "J11"
 T1 -3.2 0 0.8 0.8 900 0.1 N V 21 N "12V_Out"
-DS 0 -1.905 0 1.905 0.15 21
-DS 2.54 1.905 2.54 -1.905 0.15 21
-DS -2.54 -1.905 -2.54 1.905 0.15 21
-DS -0.635 2.54 -1.905 2.54 0.1524 21
-DS 1.905 2.54 0.635 2.54 0.1524 21
-DS 0.635 -2.54 1.905 -2.54 0.1524 21
-DS -1.905 -2.54 -0.635 -2.54 0.1524 21
-DS 1.905 -2.54 2.54 -1.905 0.1524 21
-DS -0.635 -2.54 0 -1.905 0.1524 21
-DS 0 -1.905 0.635 -2.54 0.1524 21
-DS -2.54 -1.905 -1.905 -2.54 0.1524 21
-DS -1.905 2.54 -2.54 1.905 0.1524 21
-DS 0.635 2.54 0 1.905 0.1524 21
-DS 0 1.905 -0.635 2.54 0.1524 21
-DS 2.54 1.905 1.905 2.54 0.1524 21
+DS 2.54 0 2.54 -2.54 0.15 21
+DS 2.54 -2.54 -2.54 -2.54 0.15 21
+DS -2.54 -2.54 -2.54 0 0.15 21
+DS -2.54 0 -2.54 2.54 0.15 21
+DS -2.54 2.54 2.54 2.54 0.15 21
+DS 2.54 2.54 2.54 0 0.15 21
+DS 0 0 2.54 0 0.15 21
+DS 0 0 -2.54 0 0.15 21
 $PAD
 Sh "1" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
@@ -3723,13 +3716,13 @@ Po 1.54 0.25
 $EndPAD
 $EndMODULE TPS61200_QFN10
 $MODULE TPS62163_DSG
-Po 0 0 0 15 52761C9D 00000000 ~~
+Po 0 0 0 15 527686B3 00000000 ~~
 Li TPS62163_DSG
 Sc 0
-AR /51EAC6A8
+AR /526D1432
 Op 0 0 0
-T0 -0.75 1.675 0.4 0.4 0 0.06 N V 21 N "U3"
-T1 -0.05 0 0.4 0.4 0 0.06 N I 21 N "TPS62163_DSG"
+T0 -0.75 1.675 0.4 0.4 0 0.06 N V 21 N "U2"
+T1 -0.05 0 0.4 0.4 0 0.06 N I 21 N "TPS62163"
 DS -1.2 0.95 -1.45 0.825 0.15 21
 DS -1.45 0.825 -1.45 1.075 0.15 21
 DS -1.45 1.075 -1.2 0.95 0.15 21
@@ -3739,7 +3732,7 @@ $PAD
 Sh "5" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 7 "GND"
+Ne 3 "GND"
 Po 0.75 -0.95
 .LocalClearance 0.07
 $EndPAD
@@ -3747,7 +3740,7 @@ $PAD
 Sh "6" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 1 "/5V_BAT"
+Ne 1 "/5V_EXT"
 Po 0.25 -0.95
 .SolderMask 0.07
 .LocalClearance 0.07
@@ -3756,7 +3749,7 @@ $PAD
 Sh "7" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 3 "/5V_OUT"
+Ne 4 "N-0000012"
 Po -0.25 -0.95
 .SolderMask 0.07
 .LocalClearance 0.07
@@ -3765,7 +3758,7 @@ $PAD
 Sh "8" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 2 "/5V_IN"
+Ne 5 "N-000008"
 Po -0.75 -0.95
 .SolderMask 0.07
 .LocalClearance 0.07
@@ -3774,7 +3767,7 @@ $PAD
 Sh "1" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 8 "N-0000034"
+Ne 3 "GND"
 Po -0.75 0.95
 .SolderMask 0.07
 .LocalClearance 0.07
@@ -3783,7 +3776,7 @@ $PAD
 Sh "2" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 4 "/D0"
+Ne 2 "/PWR_IN"
 Po -0.25 0.95
 .SolderMask 0.07
 .LocalClearance 0.07
@@ -3792,7 +3785,7 @@ $PAD
 Sh "3" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 5 "/D1"
+Ne 2 "/PWR_IN"
 Po 0.25 0.95
 .SolderMask 0.07
 .LocalClearance 0.07
@@ -3801,25 +3794,25 @@ $PAD
 Sh "4" R 0.3 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 6 "/Ilim"
+Ne 3 "GND"
 Po 0.75 0.95
 .SolderMask 0.07
 .LocalClearance 0.07
 $EndPAD
 $PAD
-Sh "5" R 0.8 0.9 0 0 0
+Sh "9" R 0.8 0.9 0 0 0
 Dr 0.299999 0 0
 At STD N 00E0FFFF
-Ne 7 "GND"
+Ne 3 "GND"
 Po 0.4 0
 .SolderMask 0.001
 .LocalClearance 0.001
 $EndPAD
 $PAD
-Sh "6" R 0.8 0.9 0 0 0
+Sh "9" R 0.8 0.9 0 0 0
 Dr 0.299999 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "GND"
 Po -0.4 0
 .SolderMask 0.001
 .LocalClearance 0.001

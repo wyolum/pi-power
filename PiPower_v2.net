@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/samata/Documents/clockthree/pi-power/PiPower_v2.sch)
-    (date "Sunday 03 November 2013 02:40:39 PM IST")
+    (date "Monday 04 November 2013 07:34:55 PM IST")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref R18)
@@ -177,6 +177,8 @@
     (comp (ref L1)
       (value 4u7H,1.2A)
       (footprint Inductor_SMD1)
+      (fields
+        (field (name Mfr_PN) CDRH2D18/HP-4R7NC))
       (libsource (lib PiPower_v2-cache) (part INDUCTOR))
       (sheetpath (names /) (tstamps /))
       (tstamp 51D15A6C))
@@ -464,6 +466,8 @@
     (comp (ref L2)
       (value 2u2H,1.9A)
       (footprint Inductor_SMD1)
+      (fields
+        (field (name Mfr_PN) VLF3012ST-2R2M1R4))
       (libsource (lib PiPower_v2-cache) (part INDUCTOR))
       (sheetpath (names /) (tstamps /))
       (tstamp 526D14F0))
@@ -484,30 +488,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 527532B9)))
   (libparts
-    (libpart (lib PiPower_sch) (part CONN_2)
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_2))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name PM) (type passive))))
-    (libpart (lib PiPower_sch) (part CONN_4)
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_4))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name PM) (type passive))
-        (pin (num 3) (name ~) (type passive))
-        (pin (num 4) (name ~) (type passive))))
-    (libpart (lib PiPower_sch) (part CONN_3)
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_3))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))))
     (libpart (lib PiPower_sch) (part CAP_NP)
       (fields
         (field (name Reference) C?)
@@ -522,6 +502,30 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib PiPower_sch) (part CONN_2)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib PiPower_sch) (part CONN_3)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_3))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib PiPower_sch) (part CONN_4)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))))
     (libpart (lib PiPower_sch) (part DIODESCH)
       (description "Diode schottky")
       (footprints
@@ -809,7 +813,7 @@
       (node (ref D3) (pin 2)))
     (net (code 14) (name "")
       (node (ref D4) (pin 2))
-      (node (ref SJ5) (pin 2)))
+      (node (ref SJ5) (pin 3)))
     (net (code 15) (name "")
       (node (ref SJ5) (pin 1))
       (node (ref D3) (pin 1)))
@@ -982,7 +986,7 @@
     (net (code 41) (name "")
       (node (ref J1) (pin 4)))
     (net (code 42) (name /STAT)
-      (node (ref SJ5) (pin 3))
+      (node (ref SJ5) (pin 2))
       (node (ref U1) (pin 1)))
     (net (code 43) (name /PROG)
       (node (ref R3) (pin 1))

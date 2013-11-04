@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Sunday 27 October 2013 06:50:36 PM IST
+EESchema-LIBRARY Version 2.3  Date: Monday 04 November 2013 07:34:47 PM IST
 #encoding utf-8
 #
 # 2SK3019
@@ -307,8 +307,8 @@ A -35 0 25 901 -901 0 1 0 F -35 25 -35 -25
 A 35 0 25 -899 899 0 1 0 F 35 -25 35 25
 S -15 25 15 -25 0 1 0 F
 X ~ 1 -150 0 100 R 30 30 1 1 I
-X ~ 2 150 0 100 L 30 30 1 1 I
-X ~ 3 0 -100 100 U 30 30 1 1 I
+X ~ 2 0 -100 100 U 30 30 1 1 I
+X ~ 3 150 0 100 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #

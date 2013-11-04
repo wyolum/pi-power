@@ -1,6 +1,6 @@
-update=Sunday 03 November 2013 01:45:25 PM IST
+update=Tuesday 05 November 2013 01:57:38 AM IST
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -12,8 +12,6 @@ LabSize=40
 [eeschema/libraries]
 LibName1=PiPower_Lib/PiPower_sch
 LibName2=power
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -41,3 +39,5 @@ ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibDir=
 LibName1=PiPower_Lib/PiPower
+[general]
+version=1
