@@ -2,7 +2,7 @@ EESchema Schematic File Version 2
 LIBS:PiPower_sch
 LIBS:power
 LIBS:PiPower_v2-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

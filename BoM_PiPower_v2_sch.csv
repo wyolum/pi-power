@@ -1,52 +1,56 @@
-"100nF";8;"C1 C4 C7 C8 C11 C12 C13 C16";"c_0805";;
-"1uF";2;"C15 C17";"c_0805";;
-"2u2 Tant";1;"C3";"c_0805";;
-"10u";2;"C5 C6";"C_ELCO_SMD";;
-"10uF";2;"C9 C14";"C_ELCO_SMD";;
-"22uF";1;"C10";"C_ELCO_SMD";;
-"100u,25V";1;"C2";"C_ELCO_SMD";;
-"SMBJ5.0CA";1;"D2";"diode-DO214AA";;
-"LSM115J";3;"D1 D5 D9";"diode-DO214BA";;
-"DIS";1;"D3";"led_0805";;
-"CHG";1;"D4";"led_0805";;
-"BAT";1;"D6";"led_0805";;
-"EXT_ON";1;"D7";"led_0805";;
-"NANOSMDC110F";1;"F1";"f_1206";;
-"MH";2;"H1 H2";"vite_3mm";;
-"LiPo_JST";1;"J2";"CONN_JST-2_SMD";;
-"12V_Out";1;"J11";"Header2x2";;
-"5V_USB";1;"J5";"Header_2";;
-"5V_EXT";1;"J6";"Header_2";;
-"5V_IN";1;"J7";"Header_2";;
-"VBAT";1;"J8";"Header_2";;
-"5V_BAT";1;"J9";"Header_2";;
-"5V_Pi";1;"J10";"Header_2";;
-"Auto_On";1;"J4";"Header_3";;
-"USB_A_out";1;"J3";"USB_A";;
-"MicroUSB_in";1;"J1";"USB_B_Micro";;
-"4u7H,1.2A";1;"L1";"Inductor_SMD1";;
-"RASPI_GPIO";1;"P1";"Header_GPIO";;
-"V_IN";1;"P2";"JACK_ALIM";;
-"IRF7319";1;"Q2";"SO8E";;
-"2SK3019";1;"Q1";"SOT416_2SK3019";;
-"1k";2;"R14 R21";"r_0805";;
-"1k5";4;"R1 R2 R9 R11";"r_0805";;
-"2k";1;"R3";"r_0805";;
-"10k";5;"R6 R7 R16 R17 R18";"r_0805";;
-"100k";3;"R5 R19 R20";"r_0805";;
-"220k";2;"R12 R13";"r_0805";;
-"300k";1;"R22";"r_0805";;
-"2M";2;"R4 R8";"r_0805";;
-"470E";1;"R10";"r_0805";;
-"150E";1;"R15";"r_0805";;
-"LINK1";1;"SJ1";"ShortLink";;
-"UVLO";1;"SJ2";"ShortLink";;
-"D0";1;"SJ3";"ShortLink";;
-"D1";1;"SJ4";"ShortLink";;
-"ON_OFF";1;"SW1";"SW_PB_V_H";;
-"TP";1;"TP1";"Breakout";;
-"MAX17040";1;"U5";"MAX17040_TDFN";;
-"MCP73831";1;"U1";"MCP73831";;"MCP73831T-2ACI/OT"
-"TPS2115A";1;"U3";"TPS2115_SON";;
-"TPS61200";1;"U4";"TPS61200_QFN10";;
-"NCP1117ST50";1;"U2";"SOT223";;
+100nF;8;"C1 C4 C7 C8 C11 C12 C13 C16";c_0805;
+1uF;2;"C15 C17";c_0805;
+10uF X7R;7;"C2 C5 C6 C9 C10 C14 C18";C_ELCO_SMD;
+22uF X7R;1;"C3";c_0805;
+SMBJ5.0CA;1;"D2";diode-DO214AA;~
+LSM115J;1;"D9";diode-DO214BA;~
+DIS;1;"D3";led_0805;~
+CHG;1;"D4";led_0805;~
+BAT;1;"D6";led_0805;~
+5V_OUT;1;"D7";led_0805;~
+5V_Pi;1;"D8";led_0805;~
+NANOSMDC110F;1;"F1";f_1206;~
+MH;2;"H1 H2";vite_3mm;
+5V_IN;1;"J12";;
+LiPo_JST;1;"J2";CONN_JST-2_SMD;~
+12V_Out;1;"J11";Header2x2;~
+5V_USB;1;"J5";Header_2;~
+5V_EXT;1;"J6";Header_2;~
+5V_OUT;1;"J7";Header_2;~
+VBAT;1;"J8";Header_2;~
+5V_BAT;1;"J9";Header_2;~
+5V_Pi;1;"J10";Header_2;~
+Auto_On;1;"J4";Header_3;
+USB_A_out;1;"J3";USB_A;
+MicroUSB_in;1;"J1";USB_B_Micro;
+2u2H,1.9A;1;"L2";Inductor_SMD1;~;VLF3012ST-2R2M1R4
+4u7H,1.2A;1;"L1";Inductor_SMD1;~;CDRH2D18/HP-4R7NC
+RASPI_GPIO;1;"P1";Header_GPIO;
+V_IN;1;"P2";JACK_ALIM;
+PCB;1;"PCB1";PCB;
+IRF7319;1;"Q2";SO8E;
+1k;2;"R14 R21";r_0805;
+1k5;1;"R11";r_0805;
+2k;1;"R3";r_0805;
+2k2;4;"R1 R2 R6 R9";r_0805;
+10k;3;"R16 R17 R18";r_0805;
+100k;3;"R5 R19 R20";r_0805;
+220k;2;"R12 R13";r_0805;
+300k;1;"R22";r_0805;
+470k;1;"R23";r_0805;
+2M;2;"R4 R8";r_0805;
+470E;1;"R10";r_0805;
+150E;1;"R15";r_0805;
+STAT;1;"SJ5";;
+BAT;1;"SJ1";ShortLink;
+5V_OUT;1;"SJ2";ShortLink;
+D0;1;"SJ3";ShortLink;
+D1;1;"SJ4";ShortLink;
+5V_Pi;1;"SJ6";ShortLink;
+ON_OFF;1;"SW1";SW_PB_V_H;
+TP;1;"TP1";Breakout;
+TPS62163;1;"U2";;
+MAX17040;1;"U5";MAX17040_TDFN;
+MCP73831;1;"U1";MCP73831;~;MCP73831T-2ACI/OT
+TPS2115A;1;"U3";TPS2115_SON;
+TPS61200;1;"U4";TPS61200_QFN10;
